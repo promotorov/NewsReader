@@ -1,5 +1,10 @@
-﻿using Android.App;
+﻿using System;
+using Android.App;
+using Android.Graphics;
 using Android.OS;
+using Android.Util;
+using Android.Views;
+using Android.Widget;
 using Droid.Views;
 
 namespace Droid
@@ -10,7 +15,7 @@ namespace Droid
         protected override void OnCreate(Bundle bundle)
         {
             base.OnCreate(bundle);
-
+       
             MainView mainView = new MainView(this);
             SetContentView(mainView);
         }
