@@ -1,6 +1,8 @@
 ﻿using Android.App;
 using Android.Widget;
 using Android.OS;
+using Android.Support.Constraints;
+using Droid.Views;
 
 namespace Droid
 {
@@ -11,8 +13,8 @@ namespace Droid
         {
             base.OnCreate(bundle);
 
-            // Set our view from the "main" layout resource
-            // SetContentView (Resource.Layout.Main);
+            MainView mainView = new MainView(this);
+            SetContentView(mainView);
         }
     }
 }
