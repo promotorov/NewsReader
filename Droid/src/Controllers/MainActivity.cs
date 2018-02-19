@@ -1,7 +1,5 @@
 ﻿using Android.App;
-using Android.Widget;
 using Android.OS;
-using Android.Support.Constraints;
 using Droid.Views;
 
 namespace Droid

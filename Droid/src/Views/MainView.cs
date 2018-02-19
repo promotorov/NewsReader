@@ -1,5 +1,4 @@
 ﻿using Android.Content;
-using Android.Support.Constraints;
 using Android.Widget;
 
 namespace Droid.Views
