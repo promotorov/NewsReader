@@ -68,6 +68,7 @@
     <Compile Include="Properties\AssemblyInfo.cs" />
     <Compile Include="src\Controllers\MainActivity.cs" />
     <Compile Include="src\Views\MainView.cs" />
+    <Compile Include="src\Views\NewsList.cs" />
   </ItemGroup>
   <ItemGroup>
     <AndroidResource Include="Resources\layout\Main.axml">
