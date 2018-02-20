@@ -35,7 +35,7 @@ namespace Model
             {
                 /*Console.WriteLine("Title: {0}", item.Title.Text);
                 Console.WriteLine("Summary: {0}", (item.Summary).Text);*/
-                list.Add(new RssFeedItem($"{item.Title}", $"{item.Summary}"));
+                list.Add(new RssFeedItem($"{item.Title.Text}", $"{item.Summary.Text}"));
             }
             return list;
         }

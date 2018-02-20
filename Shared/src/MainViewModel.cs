@@ -6,14 +6,15 @@ using Model;
 
 namespace App.Shared
 {
-    public class RssFeedViewModel : INotifyPropertyChanged
+    public class MainViewModel : INotifyPropertyChanged
     {
         private List<RssFeedItem> _feed = new List<RssFeedItem>();
 
         public event PropertyChangedEventHandler PropertyChanged;
 
-        public RssFeedViewModel()
+        public MainViewModel()
         {
+            
         }
 
         public async Task Load()
@@ -33,7 +34,7 @@ namespace App.Shared
             }
         }
 
-        public IReadOnlyList<RssFeedItem> Feed => _feed;
+        public List<RssFeedItem> Feed => _feed;
         private string feedLoadingError;
 
         public string FeedLoadingError
