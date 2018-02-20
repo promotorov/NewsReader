@@ -9,7 +9,7 @@
     <Import_RootNamespace>Shared</Import_RootNamespace>
   </PropertyGroup>
   <ItemGroup>
-    <Compile Include="$(MSBuildThisFileDirectory)src\Class1.cs" />
+    <Compile Include="$(MSBuildThisFileDirectory)src\MainViewModel.cs" />
   </ItemGroup>
   <ItemGroup />
 </Project>
